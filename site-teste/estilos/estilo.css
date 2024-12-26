@@ -1,0 +1,35 @@
+html {
+  font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+  font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
+  background-color: #00539f; /* cor de fundo da página */
+}
+
+body{
+width: 600px; /* largura dos elementos na página */
+margin: 0 auto; /* margem 0 parte superior e inferior e auto na esquerda e na direita: a mesma distância padrão para os dois lados */
+background-color: #ff9500; /* cor de fundo dos elementos da página */
+padding: 0 20px 20px 20px; /* espaço ao redor do conteúdo: superior, direito, inferior, esquerdo */
+ border: 5px solid black; /* borda do padding */
+}
+
+h1{
+  font-size: 60px;
+  text-align: center; /* alinhamento do texto */
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black; /* direita, baixo, borrão, cor */
+}
+
+
+p,li {
+font-size: 16px;
+line-height: 2; /* espaçamento entre as linhas */
+letter-spacing: 1px; /* espaçamento entre as letras */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
